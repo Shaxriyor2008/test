@@ -1,0 +1,29 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.musr img{
+    width: 150px;
+    margin-left: 120px;
+    animation: abs 2s linear infinite;
+}
+
+@keyframes abs{
+    0%{
+        transform: translatey(0px);
+    }
+    25%{
+        transform: translatey(60px);
+    }
+    50%{
+        transform: translatey(-60px);
+    }
+    100%{
+        transform: translatey(0px);
+    }
+  
+  
+       
+}
